@@ -139,11 +139,7 @@ div.card4{
     }
 }
 
- @media(max-aspect-ratio: 24/19){
-    body{
-        background: lightcoral;
-    }
-     
+ @media(max-aspect-ratio: 24/19){  
     div.card2{
         background:  hsl(217, 19%, 35%);
         height: 200px;
