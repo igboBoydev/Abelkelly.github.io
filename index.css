@@ -1,0 +1,162 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+h5{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+h5.span{
+    color: black !important;
+}
+
+img{
+    width: 25px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+p > span{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 55px;
+    line-height: 5px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+div.inline > h5{
+    display: inline-block;
+    padding-left: 8px;
+}
+
+div.inline > h5.span1{
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+div.inline > img{
+    padding-bottom: 12px;
+}
+
+h6{
+    line-height: 16px;
+    font-size: 12px;
+}
+
+h6.h6{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+}
+
+h6:last-of-type{
+    padding-left: 10px;
+}
+
+p.span2{
+    color: black !important;
+    padding-top: 10px;
+}
+
+p.span2 > span{
+    color: black !important;
+}
+
+p.span2 > span.span1{
+    padding-top: 10px;
+}
+
+p.card-text{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+
+
+.attribution a { 
+        color: hsl(228, 45%, 44%);     
+}
+
+div.container{
+    margin-top: 80px;
+}
+
+div.crude{
+    width: 260px;
+    height: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+div.crude > p.span2{
+    font-size: 10px !important;
+}
+
+div.card1{
+   background:  hsl(263, 55%, 52%);
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+div.card2{
+    background:  hsl(217, 19%, 35%);
+    height: 230px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+div.card3{
+    height: 220px;
+    color: rgba(0, 0, 0 0.5) !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+div.card4{
+    background:  hsl(219, 29%, 14%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@media (max-aspect-ratio: 8/5){
+    body{
+       background: lawngreen;
+    }
+    
+    div.card2{
+        background:  hsl(217, 19%, 35%);
+        height: 300px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    div.card3{
+        height: 300px;
+        color: rgba(0, 0, 0 0.5) !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    div.crude{
+        width: 300px;
+        height: 55px; 
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+}
+
+ @media(max-aspect-ratio: 24/19){
+    body{
+        background: lightcoral;
+    }
+     
+    div.card2{
+        background:  hsl(217, 19%, 35%);
+        height: 200px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    div.card3{
+        height: 200px;
+        color: rgba(0, 0, 0 0.5) !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    div.crude{
+        width: 300px;
+        height: 55px; 
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+} 
